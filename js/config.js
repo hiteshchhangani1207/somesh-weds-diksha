@@ -8,7 +8,7 @@ window.WEDDING = {
   groom: {
     firstName: "Somesh",
     fullName: "Somesh Chhangani",
-    honorific: "Chi.",
+    honorific: "चि.",
     qualification: "BA LLB, CS",
     lines: [
       "Son of Dr. Smt. Rachna Shailendra Chhangani",
@@ -20,7 +20,7 @@ window.WEDDING = {
   bride: {
     firstName: "Diksha",
     fullName: "Diksha Thanvi",
-    honorific: "Sau. Ka.",
+    honorific: "सौ. कां.",
     qualification: "CA",
     lines: [
       "Daughter of Smt. Payalji – Rameshji Thanvi",
