@@ -134,7 +134,7 @@ window.WEDDING = {
       "Smt. Anjanadevi – Shri Rooplal (Lalit) Chhangani",
       "Smt. Maithili – Shri Nitin Chhangani"
     ],
-    darshanabhilashi: "Chi. Hitesh (Ashutosh) Chhangani (CS)",
+    darshanabhilashi: "Hitesh (Ashutosh) Chhangani (CS)",
     manuhar: "Jinal & Radha Chhangani",
     signOff: "The Chhangani family",
     mama: [
