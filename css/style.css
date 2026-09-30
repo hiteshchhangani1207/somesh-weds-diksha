@@ -294,7 +294,7 @@ button, a { font: inherit; color: inherit; }
 /* ---------- VIII · A temple on the hill at dusk ---------- */
 .closing { background: #dfbfb1; }
 .closing .c-art { inset: 17% 0 0 0; -webkit-mask: linear-gradient(180deg, transparent 0, #000 14%); mask: linear-gradient(180deg, transparent 0, #000 14%); }
-.c-art img { object-position: 45% 30%; }
+.c-art img { object-position: 52% 42%; }
 .closing .fireflies { position: absolute; inset: 0; width: 100%; height: 100%; z-index: 2; pointer-events: none; mix-blend-mode: screen; }
 .c-top { position: absolute; left: 0; right: 0; top: 7%; z-index: 3; text-align: center; padding: 0 24px; }
 .c-kicker { font-size: 15px; color: #6a4744; }
