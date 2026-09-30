@@ -61,7 +61,8 @@ window.WEDDING = {
   // WhatsApp number for RSVPs: country code + number, no spaces or +
   rsvpWhatsApp: "917709001744",
   rsvpBy: "30 November 2026",
-  music: "", // add "audio/music.mp3" here once a music file is in the audio folder
+  // "Radha Ramanam Hare Hare" (Shri Indresh Upadhyay Ji, BhaktiPath), a 75-second loop
+  music: "audio/radha-ramanam.m4a",
 
   // The celebrations, day by day. mapUrl: paste the Google Maps "Share" link.
   days: [

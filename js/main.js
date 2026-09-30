@@ -328,7 +328,15 @@
   music.addEventListener("error", () => (toggle.hidden = true));
   const setPlaying = (on) => { toggle.classList.toggle("paused", !on); toggle.setAttribute("aria-label", on ? "Pause music" : "Play music"); };
   toggle.addEventListener("click", () => (music.paused ? music.play().then(() => setPlaying(true)).catch(() => {}) : (music.pause(), setPlaying(false))));
-  const startMusic = () => { if (W.music) music.play().then(() => { toggle.hidden = !!music.error; setPlaying(true); }).catch(() => {}); };
+  // Starts on the guest's tap (browsers only allow sound after a tap), then swells in gently
+  const startMusic = () => {
+    if (!W.music) return;
+    music.volume = 0;
+    music.play().then(() => {
+      toggle.hidden = !!music.error; setPlaying(true);
+      let v = 0; const up = setInterval(() => { v = Math.min(0.75, v + 0.03); music.volume = v; if (v >= 0.75) clearInterval(up); }, 120);
+    }).catch(() => {});
+  };
 
   /* ---------- Text splitting ---------- */
   // Devanagari letters join into one another, so Hindi animates word by word
