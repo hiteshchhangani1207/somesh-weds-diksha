@@ -15,7 +15,7 @@ window.WEDDING = {
       "Grandson of Smt. Basantidevi & Shri Ramchandra Chhangani",
       "Maternal grandson of Smt. Vimladevi & late Shri Rameshchandra Jain (Badola)"
     ],
-    photo: "images/groom.jpg?v=3"
+    photo: "images/groom.jpg?v=4"
   },
   bride: {
     firstName: "Diksha",
