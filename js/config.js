@@ -139,7 +139,7 @@ window.WEDDING = {
     signOff: "The Chhangani family",
     mama: [
       "late Smt. Gunmala – late Shri Dilipkumarji Jain",
-      "Smt. Kalpana – Shri Pradeepkumarji Jain",
+      "Smt. Karuna – Shri Pradeepkumarji Jain",
       "Smt. Santosh – Shri Ashokkumarji Jain",
       "Smt. Alka – late Shri Atulkumarji Jain",
       "Smt. Roopalata – Shri Anandprakashji Jain",
@@ -147,7 +147,7 @@ window.WEDDING = {
     ],
     mamaNote: "(Badola)",
     masi: [
-      "Dr. Smt. Nanda – Dr. Shri Prasannakumarji Raisoni (Jalgaon)",
+      "Dr. Smt. Nanda – Dr. Shri Prasannaji Redasani (Jalgaon)",
       "Dr. Smt. Varsha – Dr. Shri Anilkumarji Lunkad (Dhamtari)",
       "Dr. Smt. Mamta – Dr. Shri Chandrakantji Dungarwal (Ahilyanagar)",
       "Dr. Smt. Preeti – Shri Hemantkumarji Chhajed (USA)"
@@ -157,15 +157,15 @@ window.WEDDING = {
       "Smt. Durgadevi – late Shri Omprakashji Purohit",
       "Smt. Madhuri – late Shri Manojkumarji Vyas",
       "Smt. Nita – Shri Bharatji Thanvi",
-      "Smt. Vimal – Shri Dilipkumarji Vyas",
+      "Smt. Neelam – Shri Dilipkumarji Vyas",
       "Smt. Khushboo – Shri Arunkumarji Vyas",
       "Smt. Komal – Shri Gopalji Vyas",
       "Smt. Garima – Shri Govindji Maniyar",
       "Smt. Pooja – Shri Krishnakantji Bohra",
       "Smt. Bhavna – Shri Devashishji Jethmal",
-      "Smt. Radhika – Shri Tomilji Jain"
+      "Smt. Radhika – Shri Romilji Jain"
     ],
-    bagiya: ["Diya (Reva)", "Vedant", "Raghav", "Yash", "Kanak", "Dhruv", "Viraj", "Krishna", "Lakshansh", "Lavanya", "Mrityunjay", "Divya", "Rudrika", "Satvik"]
+    bagiya: ["Diya (Reva)", "Vedant", "Raghav", "Yash", "Kanak", "Dhruv", "Viraj", "Krishna", "Lakshansh", "Lavanya", "Mrityunjay", "Ditya", "Rudrika", "Satvik"]
   },
 
   contacts: [
