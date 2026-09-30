@@ -8,10 +8,10 @@ window.WEDDING = {
   groom: {
     firstName: "Somesh",
     fullName: "Somesh Chhangani",
-    honorific: "चि.",
+    honorific: "Chi.",
     qualification: "BA LLB, CS",
     lines: [
-      "Son of Dr. Smt. Rachna & Shri Shailendra Chhangani",
+      "Son of Dr. Smt. Rachna Shailendra Chhangani",
       "Grandson of Smt. Basantidevi & Shri Ramchandra Chhangani",
       "Maternal grandson of Smt. Vimladevi & late Shri Rameshchandra Jain (Badola)"
     ],
@@ -20,10 +20,10 @@ window.WEDDING = {
   bride: {
     firstName: "Diksha",
     fullName: "Diksha Thanvi",
-    honorific: "सौ. कां.",
+    honorific: "Sau. Ka.",
     qualification: "CA",
     lines: [
-      "Daughter of Smt. Payal & Shri Ramesh Thanvi",
+      "Daughter of Smt. Payalji – Rameshji Thanvi",
       "Granddaughter of late Smt. Bhawridevi & late Shri Hiralal Thanvi",
       "Maternal granddaughter of late Smt. Satyabhama & Shri Kishangopal Purohit (Jodhpur)"
     ],

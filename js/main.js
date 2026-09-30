@@ -302,7 +302,13 @@
 
   /* ---------- RSVP sheet ---------- */
   const sheet = $("#rsvp-sheet");
-  $("#rsvp-events").innerHTML = events.map((e) => `<label class="tg"><input type="checkbox" name="ev" value="${esc(e.name)}" checked>${esc(e.name)}</label>`).join("");
+  // Only ask about the journeys this guest is invited to
+  const trips = {
+    nagpur: days.some((d) => d.place === "Nagpur" && d.date < "2026-12-10"),
+    jodhpur: days.some((d) => d.place === "Jodhpur"),
+    reception: days.some((d) => d.date === "2026-12-14")
+  };
+  $$(".trow").forEach((r) => (r.hidden = !trips[r.dataset.trip]));
   let lenis = null;
   $("#rsvp-open").addEventListener("click", (e) => { e.preventDefault(); lenis && lenis.stop(); sheet.showModal(); });
   sheet.addEventListener("close", () => lenis && lenis.start());
@@ -310,13 +316,16 @@
   sheet.addEventListener("click", (e) => { if (e.target === sheet) sheet.close(); });
   $("#rsvp-form").addEventListener("submit", (ev) => {
     ev.preventDefault();
-    const f = new FormData(ev.target), chosen = f.getAll("ev");
+    const f = new FormData(ev.target);
+    const n = (k) => Math.max(0, parseInt(f.get(k), 10) || 0);
     const lines = [
-      `Radhe Radhe! RSVP for Chi. ${W.groom.firstName} & Sau. ${W.bride.firstName}'s wedding`,
-      `Name: ${f.get("name")}`,
-      `Guests: ${f.get("count")}`,
-      `Attending: ${chosen.length ? chosen.join(", ") : "Sorry, can't make it, but sending our blessings!"}`
+      `Radhe Radhe! RSVP for ${W.groom.honorific} ${W.groom.firstName} & ${W.bride.honorific} ${W.bride.firstName}'s wedding`,
+      `Name: ${f.get("name")}`
     ];
+    if (trips.nagpur) lines.push(`Travelling to Nagpur (7–8 Dec): ${n("nagpur")}`);
+    if (trips.jodhpur) lines.push(`Travelling to Jodhpur (from 10 Dec): ${n("jodhpur")}`);
+    if (trips.reception) lines.push(`Travelling to Nagpur (14 Dec, Ashirwad Samaroh): ${n("reception")}`);
+    if (!n("nagpur") && !n("jodhpur") && !n("reception")) lines.push("Sorry, we can't make it, but sending our blessings!");
     if (f.get("note")) lines.push(`Note: ${f.get("note")}`);
     window.open(`https://wa.me/${W.rsvpWhatsApp}?text=${encodeURIComponent(lines.join("\n"))}`, "_blank", "noopener");
     sheet.close();

@@ -20,7 +20,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&family=Marcellus&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Pinyon+Script&family=Tiro+Devanagari+Sanskrit:ital@0;1&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=145">
+  <link rel="stylesheet" href="css/style.css?v=150">
 </head>
 <body class="locked">
 
@@ -125,15 +125,13 @@
         <p class="note" data-reveal>We joyfully invite you and your family to the wedding of</p>
         <div class="names">
           <div class="person">
-            <p class="honor deva" data-reveal data-bind="groom.honorific"></p>
-            <p class="name" data-split data-bind="groom.firstName"></p>
+            <div class="name-line"><span class="hon" data-bind="groom.honorific"></span><p class="name" data-split data-bind="groom.firstName"></p></div>
             <p class="qual" data-reveal data-bind="groom.qualification"></p>
             <p class="parent" data-reveal data-bind="groom.lines.0"></p>
           </div>
           <p class="with" data-reveal>with</p>
           <div class="person">
-            <p class="honor deva" data-reveal data-bind="bride.honorific"></p>
-            <p class="name" data-split data-bind="bride.firstName"></p>
+            <div class="name-line"><span class="hon" data-bind="bride.honorific"></span><p class="name" data-split data-bind="bride.firstName"></p></div>
             <p class="qual" data-reveal data-bind="bride.qualification"></p>
             <p class="parent" data-reveal data-bind="bride.lines.0"></p>
           </div>
@@ -260,10 +258,11 @@
       <p class="label ink">RSVP</p>
       <h3>Will you join us?</h3>
       <label class="field"><span>Your name</span><input name="name" required autocomplete="name" placeholder="Sharma family"></label>
-      <label class="field"><span>Number of guests</span><input name="count" type="number" min="1" max="30" value="2" required></label>
-      <fieldset class="field">
-        <span>Joining us for</span>
-        <div class="toggles" id="rsvp-events"></div>
+      <fieldset class="field travel">
+        <span>How many of you are travelling?</span>
+        <label class="trow" data-trip="nagpur"><b>To Nagpur</b><small>7 – 8 December</small><input name="nagpur" type="number" min="0" max="50" inputmode="numeric" placeholder="0"></label>
+        <label class="trow" data-trip="jodhpur"><b>To Jodhpur</b><small>from 10 December</small><input name="jodhpur" type="number" min="0" max="50" inputmode="numeric" placeholder="0"></label>
+        <label class="trow" data-trip="reception"><b>To Nagpur</b><small>14 December · Ashirwad Samaroh</small><input name="reception" type="number" min="0" max="50" inputmode="numeric" placeholder="0"></label>
       </fieldset>
       <label class="field"><span>Travel details or a note</span><textarea name="note" rows="2" placeholder="Arriving in Jodhpur on 9 Dec by train"></textarea></label>
       <button class="send" type="submit">Send on WhatsApp <span aria-hidden="true">→</span></button>
@@ -275,7 +274,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
   <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
-  <script src="js/config.js?v=145"></script>
-  <script src="js/main.js?v=145"></script>
+  <script src="js/config.js?v=150"></script>
+  <script src="js/main.js?v=150"></script>
 </body>
 </html>
