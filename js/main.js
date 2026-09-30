@@ -322,9 +322,9 @@
       `Radhe Radhe! RSVP for Chi. ${W.groom.firstName} & Sau. ${W.bride.firstName}'s wedding`,
       `Name: ${f.get("name")}`
     ];
-    if (trips.nagpur) lines.push(`Travelling to Nagpur (7–8 Dec): ${n("nagpur")}`);
-    if (trips.jodhpur) lines.push(`Travelling to Jodhpur (from 10 Dec): ${n("jodhpur")}`);
-    if (trips.reception) lines.push(`Travelling to Nagpur (14 Dec, Ashirwad Samaroh): ${n("reception")}`);
+    if (trips.nagpur) lines.push(`Travelling to Nagpur (on or before 7 Dec): ${n("nagpur")}`);
+    if (trips.jodhpur) lines.push(`Travelling to Jodhpur (on 10 Dec): ${n("jodhpur")}`);
+    if (trips.reception) lines.push(`Travelling to Nagpur (on 14 Dec): ${n("reception")}`);
     if (!n("nagpur") && !n("jodhpur") && !n("reception")) lines.push("Sorry, we can't make it, but sending our blessings!");
     if (f.get("note")) lines.push(`Note: ${f.get("note")}`);
     window.open(`https://wa.me/${W.rsvpWhatsApp}?text=${encodeURIComponent(lines.join("\n"))}`, "_blank", "noopener");
