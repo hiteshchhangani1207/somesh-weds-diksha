@@ -121,7 +121,9 @@ window.WEDDING = {
   guestGroups: {
     nagpur: ["yagyopavit", "mangalgeet", "mehendi", "prasthan", "ashirwad"],
     jodhpur: ["ganesh", "samela", "hathkaam", "mayra", "sangeet", "jaan", "snehmilan", "nikasi", "panigrahan"],
-    reception: ["ashirwad"]
+    reception: ["ashirwad"],
+    // Guests coming to both Nagpur and Jodhpur: every ceremony
+    both: ["yagyopavit", "mangalgeet", "mehendi", "prasthan", "ganesh", "samela", "hathkaam", "mayra", "sangeet", "jaan", "snehmilan", "nikasi", "panigrahan", "ashirwad"]
   },
 
   families: {
