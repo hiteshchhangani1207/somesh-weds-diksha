@@ -169,11 +169,11 @@ window.WEDDING = {
   },
 
   contacts: [
-    { name: "Shri Somchand (Munnabhai)", phone: "9322810308" },
-    { name: "Shri Rooplal (Lalit)", phone: "9970165864" },
-    { name: "Shri Shailendra", phone: "9284658869" },
-    { name: "Shri Nitin", phone: "9975709018" },
-    { name: "Chi. Hitesh (Ashutosh)", phone: "7709001744" }
+    { name: "Somchand (Munnabhai)", phone: "9322810308" },
+    { name: "Rooplal (Lalit)", phone: "9970165864" },
+    { name: "Shailendra", phone: "9284658869" },
+    { name: "Nitin", phone: "9975709018" },
+    { name: "Hitesh (Ashutosh)", phone: "7709001744" }
   ],
   sender: {
     lines: ["Shri Somchand (Munnabhai) Jethmalji Chhangani", "Shailendra Ramchandraji Chhangani", "Ramdev Baba Tekdi, Katol Road, Nagpur 440013"],
