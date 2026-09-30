@@ -71,7 +71,7 @@ window.WEDDING = {
       venue: "Our home · Flat 206, Shiv Residency Apt. 1, Barde Layout, Borgaon, Nagpur",
       mapUrl: "https://www.google.com/maps/dir/?api=1&destination=Shiv%20Residency%201%2C%2051%20Katol%20Rd%2C%20Nagpur",
       events: [
-        { id: "yagyopavit", key: true, time: "9:00 AM", name: "Yagyopavit Sanskar", hindi: "यज्ञोपवीत संस्कार", note: "The sacred-thread ceremony of Somesh and Hitesh (Ashutosh), with the blessings of late Pt. Jethmalji & Smt. Yashodadevi Chhangani" },
+        { id: "yagyopavit", key: true, time: "9:00 AM", name: "Yagyopavit Sanskar", hindi: "यज्ञोपवीत संस्कार", note: "The sacred-thread ceremony of Chi. Somesh and Chi. Hitesh (Ashutosh), with the blessings of late Pt. Jethmalji & Smt. Yashodadevi Chhangani" },
         { id: "mangalgeet", time: "6:00 PM", name: "Mangal Geet", hindi: "मंगलगीत", note: "An evening of auspicious songs" }
       ]
     },
@@ -81,7 +81,7 @@ window.WEDDING = {
       mapUrl: "https://www.google.com/maps/dir/?api=1&destination=Shiv%20Residency%201%2C%2051%20Katol%20Rd%2C%20Nagpur",
       events: [
         { id: "mehendi", key: true, time: "9:00 AM", name: "Mehendi", hindi: "मेहंदी", note: "Come with your family and fill the day with song" },
-        { id: "prasthan", time: "10:00 PM", name: "Baraat Prasthan", hindi: "बारात प्रस्थान", note: "The baraat leaves Nagpur by train for Jodhpur, to the home of Devkinandanji & Rameshji Thanvi" }
+        { id: "prasthan", time: "10:00 PM", name: "Baraat Prasthan", hindi: "बारात प्रस्थान", note: "The baraat leaves Nagpur by train for Jodhpur, to the home of Shri Devkinandanji & Shri Rameshji Thanvi" }
       ]
     },
     {
@@ -112,7 +112,7 @@ window.WEDDING = {
       venue: "New Chopde Lawns · Awasthi Chowk, Jafar Nagar, Nagpur",
       mapUrl: "https://www.google.com/maps/dir/?api=1&destination=New%20Chopde%20Lawns%2C%20Awasthi%20Square%2C%20Jafar%20Nagar%2C%20Nagpur",
       events: [
-        { id: "ashirwad", key: true, time: "6:30 PM onwards", name: "Ashirwad Samaroh", hindi: "आशीर्वाद समारोह", note: "Bless our dear son Somesh and our dear daughter-in-law Diksha", highlight: true }
+        { id: "ashirwad", key: true, time: "6:30 PM onwards", name: "Ashirwad Samaroh", hindi: "आशीर्वाद समारोह", note: "Bless our dear son Chi. Somesh and our dear daughter-in-law Sau. Diksha", highlight: true }
       ]
     }
   ],
@@ -128,55 +128,55 @@ window.WEDDING = {
 
   families: {
     vineet: [
-      "Smt. Basantidevi – Ramchandra Chhangani",
-      "Smt. Santoshdevi – Somchand (Munnabhai) Chhangani",
-      "Smt. Ashadevi – Kamalkishore Chhangani",
-      "Smt. Anjanadevi – Rooplal (Lalit) Chhangani",
-      "Smt. Maithili – Nitin Chhangani"
+      "Smt. Basantidevi – Shri Ramchandra Chhangani",
+      "Smt. Santoshdevi – Shri Somchand (Munnabhai) Chhangani",
+      "Smt. Ashadevi – Shri Kamalkishore Chhangani",
+      "Smt. Anjanadevi – Shri Rooplal (Lalit) Chhangani",
+      "Smt. Maithili – Shri Nitin Chhangani"
     ],
-    darshanabhilashi: "Hitesh (Ashutosh) Chhangani (CS)",
+    darshanabhilashi: "Chi. Hitesh (Ashutosh) Chhangani (CS)",
     manuhar: "Jinal & Radha Chhangani",
     signOff: "The Chhangani family",
     mama: [
-      "late Smt. Gunmala – late Dilipkumarji Jain",
-      "Smt. Karuna – Pradeepkumarji Jain",
-      "Smt. Santosh – Ashokkumarji Jain",
-      "Smt. Alka – late Atulkumarji Jain",
-      "Smt. Roopalata – Anandprakashji Jain",
-      "Smt. Sangeeta – Rajeshkumarji Jain"
+      "late Smt. Gunmala – late Shri Dilipkumarji Jain",
+      "Smt. Karuna – Shri Pradeepkumarji Jain",
+      "Smt. Santosh – Shri Ashokkumarji Jain",
+      "Smt. Alka – late Shri Atulkumarji Jain",
+      "Smt. Roopalata – Shri Anandprakashji Jain",
+      "Smt. Sangeeta – Shri Rajeshkumarji Jain"
     ],
     mamaNote: "(Badola)",
     masi: [
-      "Dr. Smt. Nanda – Dr. Prasannaji Redasani (Jalgaon)",
-      "Dr. Smt. Varsha – Dr. Anilkumarji Lunkad (Dhamtari)",
-      "Dr. Smt. Mamta – Dr. Chandrakantji Dungarwal (Ahilyanagar)",
-      "Dr. Smt. Preeti – Hemantkumarji Chhajed (USA)"
+      "Dr. Smt. Nanda – Dr. Shri Prasannaji Redasani (Jalgaon)",
+      "Dr. Smt. Varsha – Dr. Shri Anilkumarji Lunkad (Dhamtari)",
+      "Dr. Smt. Mamta – Dr. Shri Chandrakantji Dungarwal (Ahilyanagar)",
+      "Dr. Smt. Preeti – Shri Hemantkumarji Chhajed (USA)"
     ],
     shobha: [
-      "late Smt. Pushpadevi – Babulalji Joshi",
-      "Smt. Durgadevi – late Omprakashji Purohit",
-      "Smt. Madhuri – late Manojkumarji Vyas",
-      "Smt. Nita – Bharatji Thanvi",
-      "Smt. Neelam – Dilipkumarji Vyas",
-      "Smt. Khushboo – Arunkumarji Vyas",
-      "Smt. Komal – Gopalji Vyas",
-      "Smt. Garima – Govindji Maniyar",
-      "Smt. Pooja – Krishnakantji Bohra",
-      "Smt. Bhavna – Devashishji Jethmal",
-      "Smt. Radhika – Romilji Jain"
+      "late Smt. Pushpadevi – Shri Babulalji Joshi",
+      "Smt. Durgadevi – late Shri Omprakashji Purohit",
+      "Smt. Madhuri – late Shri Manojkumarji Vyas",
+      "Smt. Nita – Shri Bharatji Thanvi",
+      "Smt. Neelam – Shri Dilipkumarji Vyas",
+      "Smt. Khushboo – Shri Arunkumarji Vyas",
+      "Smt. Komal – Shri Gopalji Vyas",
+      "Smt. Garima – Shri Govindji Maniyar",
+      "Smt. Pooja – Shri Krishnakantji Bohra",
+      "Smt. Bhavna – Shri Devashishji Jethmal",
+      "Smt. Radhika – Shri Romilji Jain"
     ],
     bagiya: ["Diya (Reva)", "Vedant", "Raghav", "Yash", "Kanak", "Dhruv", "Viraj", "Krishna", "Lakshansh", "Lavanya", "Mrityunjay", "Ditya", "Rudrika", "Satvik"]
   },
 
   contacts: [
-    { name: "Somchand (Munnabhai)", phone: "9322810308" },
-    { name: "Rooplal (Lalit)", phone: "9970165864" },
-    { name: "Shailendra", phone: "9284658869" },
-    { name: "Nitin", phone: "9975709018" },
-    { name: "Hitesh (Ashutosh)", phone: "7709001744" }
+    { name: "Shri Somchand (Munnabhai)", phone: "9322810308" },
+    { name: "Shri Rooplal (Lalit)", phone: "9970165864" },
+    { name: "Shri Shailendra", phone: "9284658869" },
+    { name: "Shri Nitin", phone: "9975709018" },
+    { name: "Chi. Hitesh (Ashutosh)", phone: "7709001744" }
   ],
   sender: {
-    lines: ["Somchand (Munnabhai) Jethmalji Chhangani", "Shailendra Ramchandraji Chhangani", "Ramdev Baba Tekdi, Katol Road, Nagpur 440013"],
+    lines: ["Shri Somchand (Munnabhai) Jethmalji Chhangani", "Shailendra Ramchandraji Chhangani", "Ramdev Baba Tekdi, Katol Road, Nagpur 440013"],
     practice: "Ramdev Clinic, Gittikhadan, Nagpur"
   }
 };
