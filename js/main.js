@@ -319,7 +319,7 @@
     const f = new FormData(ev.target);
     const n = (k) => Math.max(0, parseInt(f.get(k), 10) || 0);
     const lines = [
-      `Radhe Radhe! RSVP for Chi. ${W.groom.firstName} & Sau. ${W.bride.firstName}'s wedding`,
+      `Radhe Radhe! RSVP for ${W.groom.firstName} & ${W.bride.firstName}'s wedding`,
       `Name: ${f.get("name")}`
     ];
     if (trips.nagpur) lines.push(`Travelling to Nagpur (7–8 Dec): ${n("nagpur")}`);
