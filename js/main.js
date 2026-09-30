@@ -74,7 +74,7 @@
   $$("[data-bind]").forEach((el) => (el.textContent = get(el.dataset.bind) ?? ""));
   document.title = `${W.groom.firstName} weds ${W.bride.firstName}`;
   $("#seal-mono").innerHTML = esc(W.monogram).replace(/&amp;/, "<i>&amp;</i>");
-  $("#gate-families").textContent = `The ${surname(W.groom.fullName)} & ${surname(W.bride.fullName)} families`;
+  $("#gate-families").textContent = `The ${W.familyName} family`;
 
   const fmtDay = (iso) => {
     const [y, m, d] = iso.split("-").map(Number);
